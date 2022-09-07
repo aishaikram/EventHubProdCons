@@ -10,11 +10,11 @@ internal class Program
 {
 
 
-    private const string connectionString = "<Event hub connection string>";
+    private const string connectionString = "Endpoint=sb://lgeventhub.servicebus.windows.net/;SharedAccessKeyName=Consumer;SharedAccessKey=h00BY83PM67RfZ0m6DkuQ3eZZU54k++UoimaMNySDCM=;EntityPath=vacancyevents";
     private const string eventHubName = "vacancyevents";
 
     //access keys
-    private const string blobStorageConnectionString = "<blog connection string>";
+    private const string blobStorageConnectionString = "<DefaultEndpointsProtocol=https;AccountName=aistorageimage2;AccountKey=VFvZXnnkz0o1aQxM4XkuaUNdsvPbQ62EFqQw8RAluz+ki9zCgq3c162WiVRoKyvjydk7RyOozFf/+ASther4jQ==;BlobEndpoint=https://aistorageimage2.blob.core.windows.net/;QueueEndpoint=https://aistorageimage2.queue.core.windows.net/;TableEndpoint=https://aistorageimage2.table.core.windows.net/;FileEndpoint=https://aistorageimage2.file.core.windows.net/;>";
     private const string blobContainerName = "eventhubconsumer";
     static async Task Main()
     {

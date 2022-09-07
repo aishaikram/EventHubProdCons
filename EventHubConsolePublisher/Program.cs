@@ -8,9 +8,9 @@ internal class Program
 
 {
 
-    private const string connectionString = "Endpoint=sb://lgeventhub.servicebus.windows.net/;SharedAccessKeyName=Consumer;SharedAccessKey=h00BY83PM67RfZ0m6DkuQ3eZZU54k++UoimaMNySDCM=;EntityPath=vacancyevents";
+    private const string connectionString = "";
     private const string eventHubName = "vacancyevents";
-   
+
 
 
     private static async Task Main()
